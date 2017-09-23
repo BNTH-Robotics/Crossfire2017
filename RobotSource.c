@@ -9,8 +9,8 @@ task main()
 	{
 		//Port 3 is left and Port 9 is Right
 
-		motor[port3] = vexRT[Ch3]; 
-		motor[port9] = vexRT[Ch2]; 
+		motor[leftwheels] = vexRT[Ch3]; 
+		motor[rightwheels] = vexRT[Ch2]; 
 
 	}
 }
