@@ -1,0 +1,41 @@
+8
+
+dir
+215
+https://kompozer.svn.sourceforge.net/svnroot/kompozer/trunk/mozilla/composer/app/macbuild/Contents/Resources/English.lproj
+https://kompozer.svn.sourceforge.net/svnroot/kompozer
+
+
+
+2008-12-29T16:16:21.881429Z
+73
+fabiwan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+55ead531-2e2b-0410-b405-93e52e755431
+
+InfoPlist.strings
+file
+
+
+
+
+2010-02-21T04:26:10.000000Z
+ad392f671d994d6e0d7d507172f12800
+2008-12-29T16:16:21.881429Z
+73
+fabiwan
+has-props
+

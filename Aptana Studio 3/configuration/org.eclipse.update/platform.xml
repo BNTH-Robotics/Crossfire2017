@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1413827652694">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.radrails.rails" plugin-identifier="com.aptana.editor.ruby" url="features/org.radrails.rails_3.6.1.1408558425-7n-7Z7oRIvAHSB7Z/" version="3.6.1.1408558425-7n-7Z7oRIvAHSB7Z">
+		</feature>
+		<feature id="com.aptana.feature.rcp" plugin-identifier="com.aptana.branding" url="features/com.aptana.feature.rcp_3.6.0.201410201044-7q7fFA2FEB7f0Xksz0bSy9-Gg8I4/" version="3.6.0.201410201044-7q7fFA2FEB7f0Xksz0bSy9-Gg8I4">
+		</feature>
+		<feature id="com.aptana.php.feature" plugin-identifier="com.aptana.editor.php" url="features/com.aptana.php.feature_3.6.1.201410171731-7J7E-7ISDejnREiH/" version="3.6.1.201410171731-7J7E-7ISDejnREiH">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.2.0.v20140221-1852/" version="1.2.0.v20140221-1852">
+		</feature>
+		<feature id="com.aptana.feature" plugin-identifier="com.aptana.branding" url="features/com.aptana.feature_3.6.2.1413590556-B07o89BabgaJTVkGD9833355984B/" version="3.6.2.1413590556-B07o89BabgaJTVkGD9833355984B">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.2.2.v20140206-1358/" version="1.2.2.v20140206-1358">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.2.1.v20140221-1852/" version="1.2.1.v20140221-1852">
+		</feature>
+		<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.3.2.v20140221-1852/" version="4.3.2.v20140221-1852">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.9.2.v20131212-0545/" version="2.9.2.v20131212-0545">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20140221-1852/" version="2.2.0.v20140221-1852">
+		</feature>
+		<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.0.2.v20140221-1700/" version="2.0.2.v20140221-1700">
+		</feature>
+		<feature id="com.aptana.feature.studio" plugin-identifier="com.aptana.branding" url="features/com.aptana.feature.studio_3.6.0.201410201030-7f7H37k7XZpgc5KV8SsTCtaC6n3z/" version="3.6.0.201410201030-7f7H37k7XZpgc5KV8SsTCtaC6n3z">
+		</feature>
+		<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.3.2.v20140221-1700/" version="4.3.2.v20140221-1700">
+		</feature>
+		<feature id="com.aptana.ide.feature.libraries.subscription" url="features/com.aptana.ide.feature.libraries.subscription_2.0.3.1349744907-3-2244873A381/" version="2.0.3.1349744907-3-2244873A381">
+		</feature>
+		<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.9.2.v20131212-0545/" version="2.9.2.v20131212-0545">
+		</feature>
+		<feature id="com.aptana.pydev.feature" plugin-identifier="org.python.pydev" url="features/com.aptana.pydev.feature_3.0.0.201410171802-7v--7uVyx2EKHY/" version="3.0.0.201410171802-7v--7uVyx2EKHY">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.0.v20140221-1852/" version="1.2.0.v20140221-1852">
+		</feature>
+	</site>
+</config>
