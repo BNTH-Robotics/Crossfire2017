@@ -44,8 +44,8 @@ a {
 {
     font-size:3rem;
 }
-#noNav
+.noNav
 {
-    padding-left:0px;
-    transition: 0.5s;
+    margin-left:25%;
+    transition:margin-left 0.5s;
 }
