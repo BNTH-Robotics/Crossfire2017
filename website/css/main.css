@@ -4,6 +4,10 @@ a {
     text-decoration: none;
 }
 
+.headLogo
+{
+    width: 40em;
+}
 .navigation
 {
     height: 100%;
