@@ -8,5 +8,12 @@
 #pragma config(Servo, port8, S4, tmotorServoContinuousRotation, openLoop)
 task main()
 {
-
+motor[Sm1] = 50;
+motor[Sm2] = 50;
+motor[Lm1] = 50;
+motor[Lm2] = 50;
+servo[s1] = 50;
+servo[s2] = 50;
+servo[s3] = 50;
+servo[s4] = 50;
 }
