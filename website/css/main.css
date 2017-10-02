@@ -24,6 +24,17 @@ a {
     z-index: :1;
     
 }
+.navigation:hover
+{
+    background-color: black;
+    height: 100%;
+    overflow-x:hidden;
+    position:fixed;
+    transition:.5s;
+    width:3%;
+    z-index: :1;
+    
+}
 .navigation a
 {
 
@@ -36,6 +47,8 @@ a {
     white-space: nowrap;
     margin-top: 5%;
     padding-right:100px;
+    position: relative;
+    right: 2200%;
     
     
 }
@@ -46,7 +59,6 @@ a {
     background-color:ghostwhite;
     color: black;
     transition: 0.3s;
-    
     
     
 }
@@ -66,6 +78,10 @@ a {
 .root h
 {
     font-size:3rem;
+}
+.navlink
+{
+    right: 0%;
 }
 .noNav
 {
