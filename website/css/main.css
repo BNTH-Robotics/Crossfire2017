@@ -53,6 +53,24 @@ a {
 {
     font-size:3rem;
 }
+
+/* So basically, you'll notice in the html code, I added id="title1" in one of the things. This allows you to call that specific one and edit it 
+seperately as shown below. You probably already knew this but yeah*/
+
+.root #title1
+{
+    padding-left:30px;
+    color:red;
+    text-align:center;
+    font-family:verdana;
+}
+
+.root #navOpenButton
+{
+    padding-left:30px;
+    font-family:verdana;
+}
+
 .noNav
 {
     margin-left:0%;
