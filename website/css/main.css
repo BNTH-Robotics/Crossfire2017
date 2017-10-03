@@ -10,12 +10,8 @@ a {
 
 .headLogo
 {
-<<<<<<< HEAD
     width: 40em;
     margin = 0%;
-=======
-    width: 30rem;
->>>>>>> master
 }
 .navigation
 {
@@ -37,12 +33,6 @@ a {
     transition:.5s;
     width:3%;
     z-index: :1;
-<<<<<<< HEAD
-    
-=======
-    margin-right:2%;
-    background-color:black;
->>>>>>> master
 }
 .navigation a
 {
@@ -54,15 +44,10 @@ a {
     text-decoration: none;
     transition 0.3s;
     white-space: nowrap;
-<<<<<<< HEAD
     margin-top: 5%;
     padding-right:100px;
     position: relative;
     right: 0%;
-=======
-    margin-top: 10%;
-    margin-left: 0px;
->>>>>>> master
     
     
 }
@@ -99,7 +84,6 @@ a {
 }
 .noNav
 {
-<<<<<<< HEAD
     margin-left:10%;
     transition:margin-left 0.5s;
 }
@@ -109,13 +93,4 @@ a {
     margin: 0%;
     padding: 0%;
     font-size: 500%;
-=======
-    margin-left:0%;
-    transition:margin-left 0.5s;
-    
-}
-.header
-{
-    color:#c20a0a;
->>>>>>> master
 }
