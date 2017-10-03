@@ -84,7 +84,7 @@ a {
 }
 .noNav
 {
-    margin-left:10%;
+    margin-left:0%;
     transition:margin-left 0.5s;
 }
 
