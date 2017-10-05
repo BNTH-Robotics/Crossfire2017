@@ -1,7 +1,5 @@
 var OPEN_WIDTH = "25%";
-var CLOSE_WIDTH = "1%";
-var navlinkposOpen = "750%";
-var navlinkposClose = "750%";
+var CLOSE_WIDTH = "0%";
 function openNav()
 {
     document.getElementById("navigation").style.width = OPEN_WIDTH;

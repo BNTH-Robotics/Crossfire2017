@@ -15,20 +15,39 @@ a {
     
 }
 
-.headLogo
+.logo
 {
-    width: 40em;
-    margin = 0%;
+    background-color: #c20a0a;
+    background-clip: content-box;
+    z-index: 2;
+    display: block;
+    position:relative;
+}
+.logo img
+{
+    margin-left:7.5%;
+    border-left-color:red;
+    box-shadow: none;
+    display: block;
+    position:relative;
+    width: 33em;
+    z-index: 2;
+}
+{
+    background-color: #c20a0a;
+    background-clip: content-box;
 }
 .navigation
 {
-    background-color: #c20a0a;
+    border: none;
+    background-color: #aa0909;
     height: 100%;
     overflow-x:hidden;
     position:fixed;
     transition:.5s;
     width:0%;
-    z-index: :1;
+    z-index: 0;
+    opacity: .99;
     
 }
 .navigation:hover
@@ -37,14 +56,12 @@ a {
     overflow-x:hidden;
     position:fixed;
     transition:.5s;
-    width:3%;
-    z-index: :1;
+    width:0%;
 
 }
 .navigation a
 {
 
-    background-color:red;
     color:white;
     display: block;
     font-size: 2rem;
@@ -53,8 +70,6 @@ a {
     white-space: nowrap;
     margin-top: 5%;
     position:relative;
-    right: 750%;
-    
     
 }
 
@@ -84,10 +99,58 @@ a {
 {
     font-size:3rem;
 }
+.stickyHeader
+{
+    background-color: red;
+    font-size: 300%;
+    background-color: whitesmoke;
+    display: block;
+    line-height: 20%;
+    margin-left 0px;
+    padding: 0%;
+    position: sticky;
+    position:webkit-sticky;
+    top:5%;
+    background-clip: border-box;
+    z-index: 3;
+}
+
+.stickyHeader a
+{
+    background-color: red;
+    font-size: 100%;
+    background-clip: border-box;
+    line-height: 1π500%;
+    display: inline;
+    clear:both;
+    line-height: 20%;
+    margin-left 0px;
+    padding: 0%;
+
+}
+.stickyHeader span
+{
+    font-size: 100%;
+    display: inline;
+    line-height: 20%;
+    margin-left 0px;
+    padding: 0%;
+}
+#topNavLink
+{
+    margin-top: 75%;
+}
 
 #openNav
 {
-    margin: 0%;
+    margin-right 0px;
+    font-size: 150%;
+    background-clip: content-box;
+    background-color: whitesmoke;
+    line-height: 20%;
+    margin-left: 0px;
     padding: 0%;
-    font-size: 500%;
+    position: sticky;
+    position:webkit-sticky;
+    top:-2%; 
 }
