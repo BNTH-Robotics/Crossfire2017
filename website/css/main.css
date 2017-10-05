@@ -62,7 +62,7 @@ a {
 .navigation a
 {
 
-    color:white;
+    color: white;
     display: block;
     font-size: 2rem;
     text-decoration: none;
@@ -99,58 +99,39 @@ a {
 {
     font-size:3rem;
 }
-.stickyHeader
-{
-    background-color: red;
-    font-size: 300%;
-    background-color: whitesmoke;
-    display: block;
-    line-height: 20%;
-    margin-left 0px;
-    padding: 0%;
-    position: sticky;
-    position:webkit-sticky;
-    top:5%;
-    background-clip: border-box;
-    z-index: 3;
-}
+
 
 .stickyHeader a
 {
-    background-color: red;
-    font-size: 100%;
-    background-clip: border-box;
-    line-height: 1π500%;
-    display: inline;
-    clear:both;
-    line-height: 20%;
-    margin-left 0px;
-    padding: 0%;
-
+    margin-right 0px;
+    font-size: 350%;
+    margin-left: 0px;
+    top:5%; 
+    color: black;
+    
 }
-.stickyHeader span
+.stickyHeader
+    {
+    clear:both;
+    background-color: #d9d9d9;
+    overflow: visible;
+    position: sticky;
+    position:webkit-sticky;
+    top:0%;
+    background-clip: border-box;
+    z-index: ;
+    }
+.stickyHeader p
 {
-    font-size: 100%;
+    font-size: 330%;
     display: inline;
-    line-height: 20%;
     margin-left 0px;
     padding: 0%;
+    color: black;
 }
 #topNavLink
 {
     margin-top: 75%;
 }
 
-#openNav
-{
-    margin-right 0px;
-    font-size: 150%;
-    background-clip: content-box;
-    background-color: whitesmoke;
-    line-height: 20%;
-    margin-left: 0px;
-    padding: 0%;
-    position: sticky;
-    position:webkit-sticky;
-    top:-2%; 
-}
+
