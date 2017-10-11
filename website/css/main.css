@@ -133,7 +133,12 @@ a {
 }
 #topNavLink
 {
+<<<<<<< HEAD
     margin-top: 75%;
+=======
+    margin-left:0%;
+    transition:margin-left 0.5s;
+>>>>>>> 113d15240d0578133e0470f4a44fe6f0a1b27704
 }
 
 
