@@ -8,12 +8,56 @@
 #pragma config(Servo, port8, S4, tmotorServoContinuousRotation, openLoop)
 task main()
 {
-motor[Sm1] = 50;
-motor[Sm2] = 50;
-motor[Lm1] = 50;
-motor[Lm2] = 50;
-servo[s1] = 50;
-servo[s2] = 50;
-servo[s3] = 50;
-servo[s4] = 50;
+	while(true)
+	{
+		float servoInitialize;
+		int motorSpeed;
+
+		servoInitialize = 0.0
+		motorSpeed = 50
+
+		if(vexRT[Btn7l])
+		{
+			motor[Sm1] = -motorSpeed;
+			motor[Sm2] = -motorSpeed;
+			motor[Lm1] = -motorSpeed;
+			motor[Lm2] = -motorSpeed;
+		}
+
+		else if (VexRT[Btn7r])
+		{
+			motor[Sm1] = motorSpeed;
+			motor[Sm2] = motorSpeed;
+			motor[Lm1] = motorSpeed;
+			motor[Lm2] = motorSpeed;
+		}
+
+		else
+		{
+			motor[Sm1] = 0;
+			motor[Sm2] = 0;
+			motor[Lm1] = 0;
+			motor[Lm2] = 0;
+		}
+
+		if(vexRT[Btn8l])
+		{
+			servoInitialize -= 0.0001
+			servo[s1] = servoInitialize;
+			servo[s2] = servoInitialize;
+			servo[s3] = servoInitialize;
+			servo[s4] = servoInitialize;
+		}
+
+		else if(vexRt[Btn8r])
+		{
+			servoInitialize += 0.0001
+			servo[s1] = servoInitialize;
+			servo[s2] = servoInitialize;
+			servo[s3] = servoInitialize;
+			servo[s4] = servoInitialize;
+		}
+
+
+	}
 }
